@@ -1,6 +1,6 @@
-/* body {
-    font-
-} */
+body {
+    margin: 0;
+}
 
 a {
     color: white;
@@ -60,6 +60,10 @@ h1 {
 
 .button-top {
     background-color: #3882F6;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 12px;
 }
 
 .placeholder {
@@ -93,6 +97,13 @@ h1 {
     padding-bottom: 100px;
 }
 
+.square {
+    border: solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+}
+
 .middlebottom {
     display: flex;
     /* justify-content: center; */
@@ -103,16 +114,21 @@ h1 {
 }
 
 .quote {
+    display: flex;
+    text-align: start;
+    padding-left: 100px;
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
     width: 800px
 }
 
-.quoteending {
-    /* width: auto; */
+.quote-ending {
     display: flex;
+    padding-right: 70px;
     justify-content: end;
+    width: 800px;
+
 }
 
 .bottomtop {
@@ -127,7 +143,7 @@ h1 {
     flex-direction: column;
     background-color: #3882F6;
     padding: 50px;
-    width: 30%;
+    width: 40%;
 }
 
 .bottom-button {
